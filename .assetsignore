@@ -1,0 +1,6 @@
+.git
+.gitignore
+.DS_Store
+*.log
+cloudinary_urls.json
+implementation_plan.md
