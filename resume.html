@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B. K. Unagar — Fine Artist Curriculum Vitae</title>
+  
+  <meta name="description" content="Professional Curriculum Vitae & Portfolio of B. K. Unagar. Master realist painter specializing in archival oil paintings on stretched canvas and fine charcoal drawings." />
+  <meta name="author" content="B. K. Unagar" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================================
+       DESIGN SYSTEM & COLOR PALETTE
+       ========================================================================== */
+    :root {
+      --bg-page: #f0ebe1;
+      --bg-sheet: #ffffff;
+      --text-main: #161618;
+      --text-body: #343438;
+      --text-muted: #5c5c62;
+      --text-light: #88888e;
+      --accent-gold: #967120;
+      --accent-gold-dark: #6e5113;
+      --accent-gold-bg: #fcf9f2;
+      --border-main: #dfdbd0;
+      --border-light: #eae6dd;
+      --font-serif: "Cormorant Garamond", Georgia, serif;
+      --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      font-family: var(--font-sans);
+      color: var(--text-body);
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+      padding: 24px 15px 40px 15px;
+    }
+
+    /* Screen Action Bar */
+    .screen-toolbar {
+      max-width: 820px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 12px 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+      border: 1px solid var(--border-main);
+    }
+
+    .toolbar-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .toolbar-badge {
+      background: var(--accent-gold-bg);
+      color: var(--accent-gold-dark);
+      border: 1px solid var(--accent-gold);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+
+    .toolbar-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .toolbar-actions {
+      display: flex;
+      gap: 9px;
+      flex-wrap: wrap;
+    }
+
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+
+    .btn-primary {
+      background: var(--accent-gold);
+      color: #ffffff;
+      border-color: var(--accent-gold-dark);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-gold-dark);
+    }
+
+    .btn-secondary {
+      background: #f7f6f2;
+      color: var(--text-main);
+      border-color: var(--border-main);
+    }
+
+    .btn-secondary:hover {
+      background: #ebe7de;
+      color: var(--accent-gold-dark);
+    }
+
+    /* Document Sheet Wrapper */
+    .document-container {
+      max-width: 820px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* Each Page Sheet */
+    .cv-page {
+      background: var(--bg-sheet);
+      padding: 36px 42px 28px 42px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      border: 1px solid var(--border-main);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+
+    .page-content {
+      flex: 1;
+    }
+
+    /* ==========================================================================
+       HEADER & IDENTITY (PAGE 1)
+       ========================================================================== */
+    .cv-header {
+      border-bottom: 2px solid var(--accent-gold);
+      padding-bottom: 14px;
+      margin-bottom: 14px;
+    }
+
+    .header-layout {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .header-identity {
+      flex: 1;
+    }
+
+    .artist-name {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      color: var(--text-main);
+      text-transform: uppercase;
+    }
+
+    .artist-signature-tag {
+      font-size: 1rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      margin-top: 4px;
+      letter-spacing: 0.03em;
+    }
+
+    .artist-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .artist-badge-img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: 48% 18%;
+      border: 2px solid var(--accent-gold);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+      flex-shrink: 0;
+    }
+
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 16px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-light);
+      font-size: 0.82rem;
+    }
+
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--text-muted);
+    }
+
+    .contact-item strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .contact-item a {
+      color: var(--accent-gold-dark);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
+
+    /* ==========================================================================
+       SECTION COMMON STYLES
+       ========================================================================== */
+    .cv-section {
+      margin-bottom: 14px;
+    }
+
+    .cv-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--text-main);
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border-main);
+      padding-bottom: 3px;
+      margin-bottom: 9px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .section-title::before {
+      content: "✦";
+      color: var(--accent-gold);
+      font-size: 0.8rem;
+    }
+
+    .profile-paragraph {
+      font-size: 0.84rem;
+      color: var(--text-body);
+      line-height: 1.52;
+      text-align: justify;
+    }
+
+    .quote-box {
+      margin-top: 7px;
+      padding: 7px 13px;
+      background: var(--accent-gold-bg);
+      border-left: 3px solid var(--accent-gold);
+      font-family: var(--font-serif);
+      font-size: 0.94rem;
+      font-style: italic;
+      color: #2b251a;
+      line-height: 1.4;
+    }
+
+    /* 4-Card Mediums Grid */
+    .disciplines-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 14px;
+    }
+
+    .discipline-card {
+      background: #faf9f6;
+      border: 1px solid var(--border-light);
+      border-radius: 4px;
+      padding: 8px 12px;
+    }
+
+    .discipline-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .discipline-title::before {
+      content: "•";
+      color: var(--accent-gold);
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .discipline-desc {
+      font-size: 0.77rem;
+      color: var(--text-muted);
+      line-height: 1.34;
+    }
+
+    /* Selected Works Grid */
+    .works-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px 14px;
+    }
+
+    .work-item {
+      font-size: 0.80rem;
+      line-height: 1.35;
+      padding-left: 10px;
+      position: relative;
+    }
+
+    .work-item::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--text-light);
+    }
+
+    .work-link {
+      color: var(--text-main);
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-color: #c4b693;
+      text-underline-offset: 2px;
+    }
+
+    .work-link:hover {
+      color: var(--accent-gold-dark);
+      text-decoration-color: var(--accent-gold-dark);
+    }
+
+    .work-desc {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+    }
+
+    /* ==========================================================================
+       PAGE 2 SPECIFICS
+       ========================================================================== */
+    .page-2-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--accent-gold);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    .page-2-title {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .page-2-artist {
+      font-size: 0.82rem;
+      color: var(--accent-gold-dark);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    /* Commission Workflow Timeline */
+    .workflow-timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .workflow-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      font-size: 0.80rem;
+    }
+
+    .step-number {
+      background: var(--accent-gold);
+      color: #ffffff;
+      font-size: 0.68rem;
+      font-weight: 700;
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .step-body strong {
+      color: var(--text-main);
+      font-size: 0.82rem;
+    }
+
+    .step-body p {
+      color: var(--text-muted);
+      font-size: 0.77rem;
+      line-height: 1.35;
+    }
+
+    /* Archival 3-Col Box */
+    .archival-box {
+      background: #faf9f6;
+      border: 1px solid var(--border-main);
+      border-radius: 4px;
+      padding: 9px 13px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      font-size: 0.78rem;
+    }
+
+    .archival-col strong {
+      display: block;
+      color: var(--text-main);
+      font-size: 0.79rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    .archival-col p {
+      color: var(--text-muted);
+      line-height: 1.32;
+      font-size: 0.75rem;
+    }
+
+    /* Assurance Card */
+    .assurance-card {
+      background: var(--accent-gold-bg);
+      border: 1px solid #ebdfbe;
+      border-radius: 4px;
+      padding: 7px 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 9px;
+    }
+
+    .assurance-icon {
+      font-size: 1.3rem;
+      color: var(--accent-gold);
+      flex-shrink: 0;
+    }
+
+    .assurance-text {
+      font-size: 0.76rem;
+      color: #383020;
+      line-height: 1.35;
+    }
+
+    .assurance-text strong {
+      color: #1a160e;
+      display: block;
+      font-size: 0.80rem;
+    }
+
+    /* Direct Studio Connection Box with QR */
+    .studio-connect-box {
+      background: #faf9f6;
+      border: 1px solid var(--border-main);
+      border-radius: 6px;
+      padding: 9px 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .connect-text {
+      flex: 1;
+    }
+
+    .connect-heading {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 2px;
+    }
+
+    .connect-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      line-height: 1.32;
+      margin-bottom: 6px;
+    }
+
+    .connect-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .connect-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+
+    .btn-wa-direct {
+      background: #25d366;
+      color: #ffffff;
+    }
+
+    .btn-wa-direct:hover {
+      background: #1eb956;
+    }
+
+    .btn-gallery-direct {
+      background: #1c1c1e;
+      color: #ffffff;
+    }
+
+    .btn-gallery-direct:hover {
+      background: var(--accent-gold-dark);
+    }
+
+    .connect-qr-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .connect-qr-img {
+      width: 64px;
+      height: 64px;
+      border: 1px solid var(--border-main);
+      padding: 2px;
+      background: #ffffff;
+      border-radius: 3px;
+    }
+
+    .connect-qr-label {
+      font-size: 0.64rem;
+      color: var(--text-light);
+      margin-top: 3px;
+      font-weight: 500;
+      max-width: 80px;
+      line-height: 1.15;
+    }
+
+    /* Page Footers */
+    .page-footer {
+      border-top: 1px solid var(--border-light);
+      padding-top: 7px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.74rem;
+      color: var(--text-light);
+    }
+
+    .footer-url a {
+      color: var(--accent-gold-dark);
+      text-decoration: underline;
+      font-weight: 500;
+    }
+
+    /* ==========================================================================
+       PRINT SPECIFICATIONS (EXACT 2-PAGE A4 FIT)
+       ========================================================================== */
+    @media print {
+      @page {
+        size: A4 portrait;
+        margin: 8mm 12mm 8mm 12mm;
+      }
+
+      body {
+        background: #ffffff !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      .screen-toolbar {
+        display: none !important;
+      }
+
+      .document-container {
+        max-width: 100% !important;
+        gap: 0 !important;
+      }
+
+      .cv-page {
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 280mm !important;
+        max-height: 280mm !important;
+        box-sizing: border-box !important;
+        page-break-after: always !important;
+        break-after: page !important;
+        overflow: hidden !important;
+      }
+
+      .cv-page:last-child {
+        page-break-after: auto !important;
+        break-after: auto !important;
+      }
+
+      /* Retain live links */
+      a {
+        color: var(--text-main) !important;
+      }
+
+      .contact-item a, .footer-url a, .work-link {
+        color: var(--accent-gold-dark) !important;
+        text-decoration: underline !important;
+      }
+
+      .btn-wa-direct {
+        background: #eef9f2 !important;
+        color: #117a37 !important;
+        border: 1px solid #25d366 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .btn-gallery-direct {
+        background: #f7f6f2 !important;
+        color: #1c1c1e !important;
+        border: 1px solid #967120 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .discipline-card, .archival-box, .studio-connect-box {
+        background: #fbfaf8 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .quote-box, .assurance-card {
+        background: #faf6ec !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .step-number {
+        background: var(--accent-gold) !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    /* Screen mobile adapt */
+    @media screen and (max-width: 680px) {
+      .cv-page {
+        padding: 24px 16px;
+      }
+      .artist-name {
+        font-size: 2rem;
+      }
+      .header-layout {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+      .disciplines-grid, .works-list, .archival-box {
+        grid-template-columns: 1fr;
+      }
+      .studio-connect-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .connect-qr-container {
+        align-self: center;
+      }
+      .screen-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .toolbar-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Screen Action Toolbar (Hidden in Print & Exported PDF) -->
+  <div class="screen-toolbar">
+    <div class="toolbar-info">
+      <span class="toolbar-badge">Curriculum Vitae</span>
+      <div class="toolbar-title">B. K. Unagar — Fine Artist</div>
+    </div>
+    <div class="toolbar-actions">
+      <button onclick="window.print()" class="btn-action btn-primary" title="Print this CV or save as vector PDF">
+        🖨️ Print / Save as PDF
+      </button>
+      <a href="B_K_Unagar_Artist_Resume.pdf" download="B_K_Unagar_Artist_Resume.pdf" class="btn-action btn-secondary" title="Download official PDF copy">
+        📥 Download PDF
+      </a>
+      <a href="https://obsidian-art-gallary.github.io" target="_blank" class="btn-action btn-secondary" title="View online gallery">
+        🌐 Online Gallery
+      </a>
+      <a href="https://wa.me/919265517759?text=Hello%20Artist%20B.%20K.%20Unagar,%20I%20reviewed%20your%20Artist%20Resume%20and%20would%20like%20to%20inquire%20about%20your%20artworks." target="_blank" class="btn-action btn-secondary" title="Direct WhatsApp consultation">
+        💬 WhatsApp Studio
+      </a>
+    </div>
+  </div>
+
+  <!-- Document Container (Contains Exactly 2 Pages) -->
+  <main class="document-container">
+
+    <!-- ==========================================================================
+         PAGE 1: ARTIST IDENTITY, SPECIALIZATIONS & SELECTED OIL WORKS
+         ========================================================================== -->
+    <article class="cv-page" id="page-1">
+      <div class="page-content">
+
+        <!-- Header Block -->
+        <header class="cv-header">
+          <div class="header-layout">
+            <div class="header-identity">
+              <h1 class="artist-name">B. K. Unagar</h1>
+              <div class="artist-signature-tag">બી. કે. ઉનાગર · Master Realist Painter</div>
+              <div class="artist-title">Archival Oil Paintings on Canvas · Master Charcoal & Graphite Studies</div>
+            </div>
+            <img src="artist.png" alt="Artist B. K. Unagar" class="artist-badge-img" />
+          </div>
+
+          <!-- Clickable Contact Row -->
+          <div class="contact-grid">
+            <div class="contact-item">
+              📍 <strong>Studio:</strong> Gujarat, India
+            </div>
+            <div class="contact-item">
+              📞 <strong>Phone:</strong> <a href="tel:+919265517759">+91 92655 17759</a>
+            </div>
+            <div class="contact-item">
+              💬 <strong>WhatsApp:</strong> <a href="https://wa.me/919265517759?text=Hello%20Artist%20B.%20K.%20Unagar,%20I%20am%20inquiring%20about%20your%20paintings." target="_blank">+91 92655 17759</a>
+            </div>
+            <div class="contact-item">
+              ✉️ <strong>Email:</strong> <a href="mailto:digitalguruji2021@gmail.com">digitalguruji2021@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              🌐 <strong>Gallery:</strong> <a href="https://obsidian-art-gallary.github.io" target="_blank">obsidian-art-gallary.github.io</a>
+            </div>
+          </div>
+        </header>
+
+        <!-- Professional Profile & Philosophy -->
+        <section class="cv-section">
+          <h2 class="section-title">Professional Profile & Artistic Philosophy</h2>
+          <p class="profile-paragraph">
+            Accomplished Indian realist painter and master draftsman with over two decades of rigorous studio devotion. Rooted in classical representational traditions, specializing in luminous, layer-by-layer oil paintings on heavy-weave stretched canvas and high-contrast charcoal and graphite anatomical studies. Every canvas is meticulously crafted by hand using permanent archival pigments and traditional glazing techniques—never digital prints, giclée, or mass reproduction. Celebrated for bringing dignified character, spiritual stillness, and authentic warmth to private collections, corporate boardrooms, and sacred spaces.
+          </p>
+          <div class="quote-box">
+            "A painted portrait does not merely duplicate an image—it breathes life, character, and quiet soul into a room. Your walls deserve authentic human devotion, not mechanical reproduction."
+          </div>
+        </section>
+
+        <!-- Core Disciplines & Mediums -->
+        <section class="cv-section">
+          <h2 class="section-title">Artistic Disciplines & Mediums</h2>
+          <div class="disciplines-grid">
+            <div class="discipline-card">
+              <div class="discipline-title">Oil on Stretched Canvas</div>
+              <div class="discipline-desc">
+                Classical glazing, scumbling, chiaroscuro lighting, textured impasto, and archival varnish protection built to endure generations.
+              </div>
+            </div>
+            <div class="discipline-card">
+              <div class="discipline-title">Master Charcoal & Graphite Studies</div>
+              <div class="discipline-desc">
+                Subtle tonal gradation, delicate hatching, facial musculature, and lifelike human expressions rendered on museum-grade acid-free paper.
+              </div>
+            </div>
+            <div class="discipline-card">
+              <div class="discipline-title">Devotional & Cultural Heritage Art</div>
+              <div class="discipline-desc">
+                Iconic Radha-Krishna compositions, spiritual gurus, and traditional Indian subjects reflecting deep reverence, serenity, and harmony.
+              </div>
+            </div>
+            <div class="discipline-card">
+              <div class="discipline-title">Bespoke Heirloom Commissions</div>
+              <div class="discipline-desc">
+                Commissioning custom oil and charcoal portraits from collector reference photographs to celebrate family milestones and ancestors.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Selected Oil Masterworks (Obsidian Collection) -->
+        <section class="cv-section" style="margin-bottom: 0;">
+          <h2 class="section-title">Selected Oil Paintings on Stretched Canvas</h2>
+          <ul class="works-list">
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Celestial Radha Krishna</a> 
+              <span class="work-desc">• Devotional Realism & Ambient Glow</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Citrus Harmony</a> 
+              <span class="work-desc">• 1048 × 740 px Still Life in Natural Sunlight</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Crimson Lilies in Crystal</a> 
+              <span class="work-desc">• Botanical Contrast & Water Refraction</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Lilac & Roses in Ornate Pitcher</a> 
+              <span class="work-desc">• Classical Academic Floral Realism</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Riverside Twilight</a> 
+              <span class="work-desc">• Atmospheric Landscape with Rural Boatman</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#canvas-gallery" target="_blank" class="work-link">Golden Sundae Study</a> 
+              <span class="work-desc">• Luminous Glass Reflections & Textures</span>
+            </li>
+          </ul>
+        </section>
+
+      </div>
+
+      <!-- Page 1 Footer -->
+      <footer class="page-footer">
+        <div>B. K. Unagar — Curriculum Vitae</div>
+        <div class="footer-url">
+          Online Gallery: <a href="https://obsidian-art-gallary.github.io" target="_blank">obsidian-art-gallary.github.io</a>
+        </div>
+        <div>Page 1 of 2</div>
+      </footer>
+    </article>
+
+
+    <!-- ==========================================================================
+         PAGE 2: CHARCOAL MASTERWORKS, COMMISSION PRACTICE & STUDIO PORTAL
+         ========================================================================== -->
+    <article class="cv-page" id="page-2">
+      <div class="page-content">
+
+        <!-- Page 2 Sub-Header -->
+        <header class="page-2-header">
+          <div class="page-2-title">Curriculum Vitae — Masterworks & Practice</div>
+          <div class="page-2-artist">B. K. Unagar · Fine Artist</div>
+        </header>
+
+        <!-- Master Charcoal & Graphite Drawings -->
+        <section class="cv-section">
+          <h2 class="section-title">Master Charcoal & Graphite Studies</h2>
+          <ul class="works-list">
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">Rajasthani Dignitary</a> 
+              <span class="work-desc">• Traditional Pagri & Regal Facial Profile</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">HH Pramukh Swami Maharaj</a> 
+              <span class="work-desc">• Reverent Spiritual Master Portrait Study</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">Man of Conviction</a> 
+              <span class="work-desc">• Deep Anatomical Bone & Expression Study</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">Rural Sentinel</a> 
+              <span class="work-desc">• Saurashtra Village Elder with Safa Turban</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">Bird in Flight</a> 
+              <span class="work-desc">• Dynamic Avian Kinetic Feather Anatomy</span>
+            </li>
+            <li class="work-item">
+              <a href="https://obsidian-art-gallary.github.io/#sketch-gallery" target="_blank" class="work-link">Loyal Companion</a> 
+              <span class="work-desc">• Expressive Animal Portraiture & Soft Fur Texture</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Bespoke Commission Workflow -->
+        <section class="cv-section">
+          <h2 class="section-title">Bespoke Portrait Commission Practice</h2>
+          <div class="workflow-timeline">
+            <div class="workflow-step">
+              <div class="step-number">1</div>
+              <div class="step-body">
+                <strong>Reference Photograph Consultation:</strong>
+                <p>Collector shares clear photographs of family members, ancestors, children, or spiritual gurus. The artist evaluates lighting, angles, and facial essence.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-number">2</div>
+              <div class="step-body">
+                <strong>Medium & Dimension Selection:</strong>
+                <p>Tailored dimension guidance from intimate tabletop sizes (12″ × 16″) to statement focal centerpieces (24″ × 36″+), in archival oil on canvas or fine charcoal.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-number">3</div>
+              <div class="step-body">
+                <strong>Layered Studio Execution & Progress Updates:</strong>
+                <p>Hand-painted layer upon layer from underdrawing to tonal glazes. Optional work-in-progress photo updates shared directly via WhatsApp for reassurance.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-number">4</div>
+              <div class="step-body">
+                <strong>Archival Curing, Museum Varnishing & Signed CoA:</strong>
+                <p>Cured and sealed with protective non-yellowing UV barrier varnish. Accompanied by an official Certificate of Authenticity personally signed by the artist.</p>
+              </div>
+            </div>
+            <div class="workflow-step">
+              <div class="step-number">5</div>
+              <div class="step-body">
+                <strong>Museum-Grade Packaging & Insured Shipping:</strong>
+                <p>Shielded with acid-free glassine, moisture barrier, corner guards, and reinforced wooden crating to guarantee pristine worldwide delivery.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Archival Materials & Technical Specifications -->
+        <section class="cv-section">
+          <h2 class="section-title">Materials & Archival Permanence Standards</h2>
+          <div class="archival-box">
+            <div class="archival-col">
+              <strong>Supports & Substrates</strong>
+              <p>100% heavy linen & cotton canvas on kiln-dried hardwood stretchers. Acid-free boards for drawing.</p>
+            </div>
+            <div class="archival-col">
+              <strong>Lightfast Pigments</strong>
+              <p>Artist-grade oils with maximum ASTM I & II lightfastness. Pure vine charcoal and dense graphites.</p>
+            </div>
+            <div class="archival-col">
+              <strong>Protective Varnish</strong>
+              <p>Reversible museum UV filter varnishes shielding against dust, humidity, and light for 100+ years.</p>
+            </div>
+          </div>
+
+          <!-- Assurance Seal Box -->
+          <div class="assurance-card">
+            <div class="assurance-icon">⚜️</div>
+            <div class="assurance-text">
+              <strong>Authenticity Guarantee:</strong> Hand-signed in classical Gujarati script (<em>બી. કે. ઉનાગર</em>) and English on the reverse, complete with completion date and catalog registry.
+            </div>
+          </div>
+        </section>
+
+        <!-- Direct Studio Contact & QR Interactive Portal -->
+        <div class="studio-connect-box">
+          <div class="connect-text">
+            <div class="connect-heading">Inquire Directly with B. K. Unagar</div>
+            <div class="connect-sub">
+              To discuss commissioning a custom portrait, acquiring an available original canvas, or requesting framing advice:
+            </div>
+            <div class="connect-links">
+              <a href="https://wa.me/919265517759?text=Hello%20Artist%20B.%20K.%20Unagar,%20I%20am%20inquiring%20about%20commissioning%20an%20artwork." target="_blank" class="connect-btn btn-wa-direct">
+                💬 WhatsApp: +91 92655 17759
+              </a>
+              <a href="https://obsidian-art-gallary.github.io/#commission" target="_blank" class="connect-btn btn-gallery-direct">
+                🎨 Commission Inquiry Form
+              </a>
+            </div>
+          </div>
+          <div class="connect-qr-container">
+            <a href="https://obsidian-art-gallary.github.io" target="_blank">
+              <img src="gallery_qr.png" alt="Scan QR Code to visit online gallery" class="connect-qr-img" />
+            </a>
+            <div class="connect-qr-label">Scan to View Live Gallery</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Page 2 Footer -->
+      <footer class="page-footer">
+        <div>© 2026 B. K. Unagar. Studio: Gujarat, India.</div>
+        <div class="footer-url">
+          Portfolio: <a href="https://obsidian-art-gallary.github.io" target="_blank">obsidian-art-gallary.github.io</a>
+        </div>
+        <div>Page 2 of 2</div>
+      </footer>
+    </article>
+
+  </main>
+
+</body>
+</html>
